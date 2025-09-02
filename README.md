@@ -1,0 +1,2 @@
+# Galerie-Gestionnaire-de-T-ches-Site-Web-HTML-CSS-JavaScript-
+C’est une petite application web que j’ai développée pour pratiquer l’intégration front-end et le JavaScript. Elle contient deux parties principales : une galerie de photos avec un affichage en grille et un gestionnaire de tâches qui permet d’ajouter et supprimer des tâches, les données étant stockées dans le localStorage du navigateur.
