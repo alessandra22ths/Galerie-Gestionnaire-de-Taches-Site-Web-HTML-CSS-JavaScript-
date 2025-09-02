@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galerie et Gestion de Tâches</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Galerie de Photos et Gestionnaire de Tâches</h1>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <h2>GALERIE DE PHOTOS</h2>
+            <div class="image-grid">
+                <img src="images/pexels-andrey-grushnikov-223358-707668.jpg" alt="Image 1" class="gallery-item">
+                <img src="images/pexels-burak-argun-386428941-30944810.jpg" alt="Image 2" class="gallery-item">
+                <img src="images/pexels-celine-3776818-28704258.jpg" alt="Image 3" class="gallery-item">
+                <img src="images/pexels-jiawei-cui-1213899-2344702.jpg" alt="Image 4" class="gallery-item">
+                <img src="/images/pexels-ken-araki-1443038-21302584.jpg" alt="Image 5" class="gallery-item">
+                <img src="images/pexels-lyulog-27927792.jpg" alt="Image 6" class="gallery-item">
+                <img src="images/pexels-markus-winkler-1430818-4836103.jpg" alt="Image 7" class="gallery-item">
+                <img src="images/pexels-mathias-sogorski-746842789-30637692.jpg" alt="Image 8" class="gallery-item">
+                <img src="images/pexels-mert-ocak-1182809874-30892454.jpg" alt="Image 9" class="gallery-item">
+                <img src="images/pexels-yfshoot-9477627.jpg" alt="Image 10" class="gallery-item">
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+            <p id="error-message" style="color:red; display:none;">Tous les champs sont obligatoires.</p>
+        </section>
+
+        <section class="task-manager">
+            <h2>Gestion des Tâches</h2>
+            <form id="task-form">
+                <label for="task-title">Titre de la tâche:</label>
+                <input type="text" id="task-title" name="task-title" required>
+                <button type="submit">Ajouter la tâche</button>
+            </form>
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mon Application Web</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
